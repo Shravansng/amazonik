@@ -1,0 +1,223 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    background-color: #0f1111;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.navlogo{
+    
+    height: 50px;
+    width: 120px;
+   
+}
+.addresslogo{
+
+}
+.logo{
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(https://rdwgroup.com/wp-content/uploads/2013/08/Amazon-800x450-1.jpg);
+    background-size: 110px 60px;
+
+    width: 100px;
+}
+.bordar{
+    border: 2px solid transparent;
+}.bordar:hover{
+    border: 2px solid rgb(127, 196, 246);
+}
+.navbaraddres{
+    margin-left: 2px;
+}
+.nav-serc{
+    width: 500px;
+    justify-content: space-evenly;
+    border-radius:5px ;
+    margin-left: 5px;
+    display: flex;
+    
+}.nav-serc:hover{
+    border: 2px solid rgb(252, 226, 82);
+}
+.search2{
+    background-color:#eed9d9f3;
+    height: 21px;
+    border-radius:2px ;
+    border: none;
+}.search-input {
+ width:500px;
+ font-size: 1rem;
+ border: none;
+}span{
+    font-size: 0.7rem;
+}.secnd-nav{
+    font-size: 0.85rem;
+    font-weight: 700;
+    
+    
+}
+
+.nav-card{
+    display: flex;
+    align-items:end;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.image2{
+    background-image: url(https://e7.pngegg.com/pngimages/195/996/png-clipart-shopping-cart-computer-icons-online-shopping-symbol-shopping-logo-design-supermarket-bag-thumbnail.png);
+    background-size: cover;
+     width: 30px;
+     height: 30px; 
+
+    border-radius: 10px;
+}
+.navbar2{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color: aliceblue;
+    align-items: center;
+     
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+.image3{
+    background-image: url(https://w7.pngwing.com/pngs/563/1011/png-transparent-hamburger-button-computer-icons-menu-ham-angle-text-rectangle-thumbnail.png);
+    background-size: cover;
+     width: 30px;
+     height: 30px; 
+      
+     
+}
+
+.text-line p{
+    display: inline; 
+    margin-left: 13px;
+}
+.text-line {
+            width: 1000px;
+            font-size: 0.86rem;
+}.penel-deal{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+.hero-section{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/GW/July/AUSmall/AF-Unrec-3000._CB600722535_.jpg");
+    height: 300px;
+    background-size: cover;
+}
+.Shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(234, 229, 229);
+}
+.box{
+    /* border: 2px solid black; */
+    height: 370px;
+    width: 23%;
+    background-color: #fff;
+    padding: 20px 0px 15px;
+    margin: 5px;
+}
+.box-img{
+    
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg);
+    background-size: cover;
+    height: 260px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-constent{
+               padding-left:1rem;
+              padding-right: 1rem;
+}
+.box-constent p {
+    color: rgb(122, 186, 165);
+}
+
+
+
+footer{
+    margin-top: 15px;
+}
+
+
+.foot-panel{
+     background-color: #37475a;
+     color: white;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 0.85rem;
+    
+}
+.fotor-panel2{
+    background-color: #222f3d ;
+    color: aliceblue;
+     height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 20px;
+}
+
+
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color:#222f3d;
+    border-top: 0.5px solid rgb(213, 210, 210);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(https://rdwgroup.com/wp-content/uploads/2013/08/Amazon-800x450-1.jpg);
+    background-size: 100px 50px;
+
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: #dddddd;
+    height: 80px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.textop{
+      font-size: 0.85rem;
+      text-align: center;
+      padding-top: 20px;
+}
+.copyrait{
+    padding-top: 5px;
+    font-size: 0.85rem;
+    text-align: center;
+}
